@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ma page HTML</title>
+	<link rel="stylesheet" type="text/css" href="facebook.css">
+	<meta charset="utf-8">
+</head>
+<body>
+<div id="general">
+	<div id="baniere">
+		<div id="logo"><a href="www.facebook.com"><img src="facebooklogo.jpg">
+                      </a>
+		</div>
+		<div id="seconnecter">
+			<form method="post" action="inscription.php">
+				<table>
+					<!-- <thead>Email ou Numero</thead> -->
+					<tr>
+						<td><input type="email" type="email" placeholder="Numéro de mobile ou e-mail"></td>
+						<td><input type="password" placeholder="Mot de passe"></td>
+						<td><input type="submit" value="connexion"></td></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+	<div id="conteneur">
+		<div class="bloc1">
+			<h3>Avec Facebook, partagez et restez en contact <br>
+			avec votre entourage.</h3>
+			<img src="profil.png">
+		</div>
+		<div class="bloc2">
+			<!-- <h2>Inscription</h2>
+			<h4>C'est gratuit (et ça le restera toujours)</h4> -->
+			<!-- <div id ="texte"> -->
+				<h2>Inscription</h2>
+				<p/>C'est gratuit (et ça le restera toujours)</p>
+			<!-- </div> -->
+			<div id="Inscription">
+				<form method="post" action="inscription.php">
+					<label for="Prénom"></label>
+					<input type="prénom" id="Prénom" name="Prénom" placeholder="Prénom">
+					<label for="Nom"></label>
+					<input type="nom" id="Nom" name="Nom" placeholder="Nom de famille"><br><br>
+					<label for="Numéro de mobile ou e-mail"></label>
+					<input type="email" id="Numéro de mobile ou e-mail" name="Numéro de mobile ou e-mail" placeholder="Numéro de mobile ou e-mail"><br><br>
+					<label for="Confirmer numéro de mobile ou e-mail"></label>
+					<input type="email" id="Confirmer numéro de mobile ou e-mail" name="Confirmer numéro de mobile ou e-mail" placeholder="Confirmer numéro de mobile ou e-mail"><br><br>
+					<label for="Mot de passe"></label>
+					<input type="pass" id="Mot de passe" name="Mot de passe" placeholder="Mot de passe"><br>
+					<!-- <input type="submit" value="Envoyer"> -->
+					<p><strong>Date de naissance</strong>
+					<label for="naissance"></label><br>
+					<input type="Date" id="naissance" name="naissance"> <pre>Pourquoi indiquer ma date de naissance ?</pre>
+					<input type="radio" id="Femme" name="sexe" value="Femme">
+					<label for="Femme">Femme</label>
+					<input type="radio" id="Homme" name="sexe" value="Homme">
+					<label for="Homme">Homme</label>
+					<p>En cliquant sur Inscription, vous acceptez nos conditions et Indiquez que vous avez lu nos politiques d'utilisation des données, y compris notre utilisation des cokies</p>
+					<input type="submit" value="Inscription"></p>
+
+				</form>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+</div>
+</body>
+</html>

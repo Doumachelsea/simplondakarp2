@@ -1,0 +1,6 @@
+les couleurs de la page
+blanc======== FFFFFF
+gris========= dadceb
+vert========= 5a9751
+partager(...)====== 3b4f62
+baniere====== 3d5a96

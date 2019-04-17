@@ -1,0 +1,96 @@
+#general{
+	width: 1200px;
+	/*height: 900px;*/
+	background-color: red;
+	margin: auto;
+
+}
+#baniere{
+	width: 1200px;
+	height: 70px;
+	background: #3d5a96;
+}
+#logo{
+	/*width: 100px;
+	height: 70px;*/
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#conteneur{
+	width: 1200px;
+	height: 500px;
+	background: #dadceb;
+}
+#conteneur{
+	background-image: url("fond.jpg");
+}
+.bloc1{
+	width: 800px;
+	height: 500px;
+/*	background: red;*/
+	float: left;
+}
+.bloc2{
+	width: 400px;
+	height: 500px;
+	/*background: green;*/
+	float: right;
+	
+}
+#texte{
+/*
+*/
+
+}
+#seconnecter{
+	padding: 20px;
+	font-family: calibri;
+	float: right;
+	font-size: 12px;
+}
+#seconnecter{
+	color: #ffffff;
+	/*display: inline-block;*/
+}
+strong{
+	float: left;
+}
+#Inscription input[type="submit"]{
+	background-color: #5a9751;
+	color: #ffffff;
+	width: 115px;
+	height: 25px;
+	border-radius: 7px;
+
+}
+
+
+/*h2{
+	font-family: calibri;
+	color: #012f5b;
+	font-size: 40px;
+	font-weight: bold;
+	/*padding-left: 10px;*/
+/*	padding-bottom: 70px;*/
+}
+h4{
+	font-family: calibri;
+	color: #012f5b;
+	font-size: 20px;
+	/*font-weight: bold;*/
+	/*padding-left: 10px;*/
+/*	padding-bottom: 70px;*/
+}
+h3{
+	font-family: calibri;
+	color: #012f5b;
+	font-size: 22px;
+	font-weight: bold;
+	padding-left: 25px;
+}
+h2{
+	font-family: calibri;
+	font-size: 30px;
+}
+
