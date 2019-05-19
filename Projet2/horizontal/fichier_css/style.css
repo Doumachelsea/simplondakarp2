@@ -1,0 +1,56 @@
+body{
+	background-image: url("../images/125.jpg");
+	background-size: 100%;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#general{
+	width: 1200px;
+	height: 1000px;
+	margin: auto;
+	
+
+}
+#haut{
+	width: 1200px;
+	height: 70px;
+}
+.toggle_btn ul{
+	width: 1200px;
+	height: 50px;
+	margin-left: 5px;
+}
+.toggle_btn ul li{
+	float: left;
+	margin-right: 50px;
+	list-style: none;
+	left: 0px;
+	font-weight: bold;
+	display: none;
+}
+a{
+	text-decoration: none;
+	color: #a30303;
+	font-size: 32px;
+}
+.toggle_btn:hover ul li{
+	display: block;
+}
+.toggle_btn {
+    width: 50px;
+    height: 50px;
+    margin-left: 150px;
+    top: 10px;
+    position: relative;
+    float: left;
+    }
+
+    .toggle_btn span {
+    display: block;
+    width: 40px;
+    height: 5px;
+    background-color: #a67901;
+    margin: 10px 0px;
+}
